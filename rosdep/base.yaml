@@ -2656,7 +2656,7 @@ libboost-chrono:
     jammy: [libboost-chrono1.74.0]
     noble: [libboost-chrono1.83.0]
 libboost-chrono-dev:
-  arch: [boost-libs]
+  arch: [boost]
   debian: [libboost-chrono-dev]
   fedora: [boost-devel]
   gentoo: [dev-libs/boost]
@@ -2713,7 +2713,7 @@ libboost-date-time:
     jammy: [libboost-date-time1.74.0]
     noble: [libboost-date-time1.83.0]
 libboost-date-time-dev:
-  arch: [boost-libs]
+  arch: [boost]
   debian: [libboost-date-time-dev]
   fedora: [boost-devel]
   gentoo: [dev-libs/boost]
@@ -2723,7 +2723,7 @@ libboost-date-time-dev:
   rhel: [boost-devel]
   ubuntu: [libboost-date-time-dev]
 libboost-dev:
-  arch: [boost-libs]
+  arch: [boost]
   debian: [libboost-dev]
   fedora: [boost-devel]
   gentoo: [dev-libs/boost]
@@ -2750,7 +2750,7 @@ libboost-filesystem:
     jammy: [libboost-filesystem1.74.0]
     noble: [libboost-filesystem1.83.0]
 libboost-filesystem-dev:
-  arch: [boost-libs]
+  arch: [boost]
   debian: [libboost-filesystem-dev]
   fedora: [boost-devel]
   gentoo: ['dev-libs/boost[python]']
@@ -2776,7 +2776,7 @@ libboost-iostreams:
     jammy: [libboost-iostreams1.74.0]
     noble: [libboost-iostreams1.83.0]
 libboost-iostreams-dev:
-  arch: [boost-libs]
+  arch: [boost]
   debian: [libboost-iostreams-dev]
   fedora: [boost-devel]
   gentoo: [dev-libs/boost]
@@ -2801,7 +2801,7 @@ libboost-math:
     jammy: [libboost-math1.74.0]
     noble: [libboost-math1.83.0]
 libboost-math-dev:
-  arch: [boost-libs]
+  arch: [boost]
   debian: [libboost-math-dev]
   fedora: [boost-devel]
   gentoo: [dev-libs/boost]
@@ -2810,7 +2810,7 @@ libboost-math-dev:
   rhel: [boost-devel]
   ubuntu: [libboost-math-dev]
 libboost-numpy-dev:
-  arch: [boost-libs]
+  arch: [boost]
   debian: [libboost-numpy-dev]
   fedora: [boost-devel]
   gentoo: [dev-libs/boost]
@@ -2835,7 +2835,7 @@ libboost-program-options:
     jammy: [libboost-program-options1.74.0]
     noble: [libboost-program-options1.83.0]
 libboost-program-options-dev:
-  arch: [boost-libs]
+  arch: [boost]
   debian: [libboost-program-options-dev]
   fedora: [boost-devel]
   gentoo: [dev-libs/boost]
@@ -2866,7 +2866,7 @@ libboost-python:
     jammy: [libboost-python1.74.0]
     noble: [libboost-python1.83.0]
 libboost-python-dev:
-  arch: [boost-libs]
+  arch: [boost]
   alpine: [boost-python2]
   debian: [libboost-python-dev]
   fedora: [boost-devel]
@@ -2896,7 +2896,7 @@ libboost-random:
     jammy: [libboost-random1.74.0]
     noble: [libboost-random1.83.0]
 libboost-random-dev:
-  arch: [boost-libs]
+  arch: [boost]
   debian: [libboost-random-dev]
   fedora: [boost-devel]
   gentoo: [dev-libs/boost]
@@ -2922,6 +2922,7 @@ libboost-regex:
     jammy: [libboost-regex1.74.0]
     noble: [libboost-regex1.83.0]
 libboost-regex-dev:
+  arch: [boost]
   debian: [libboost-regex-dev]
   fedora: [boost-devel]
   gentoo: [dev-libs/boost]
@@ -2947,7 +2948,7 @@ libboost-serialization:
     jammy: [libboost-serialization1.74.0]
     noble: [libboost-serialization1.83.0]
 libboost-serialization-dev:
-  arch: [boost-libs]
+  arch: [boost]
   debian: [libboost-serialization-dev]
   fedora: [boost-devel]
   gentoo: [dev-libs/boost]
@@ -2973,7 +2974,7 @@ libboost-system:
     jammy: [libboost-system1.74.0]
     noble: [libboost-system1.83.0]
 libboost-system-dev:
-  arch: [boost-libs]
+  arch: [boost]
   debian: [libboost-system-dev]
   fedora: [boost-devel]
   gentoo: [dev-libs/boost]
@@ -3000,7 +3001,7 @@ libboost-thread:
     jammy: [libboost-thread1.74.0]
     noble: [libboost-thread1.83.0]
 libboost-thread-dev:
-  arch: [boost-libs]
+  arch: [boost]
   debian: [libboost-thread-dev]
   fedora: [boost-devel]
   gentoo: ['dev-libs/boost[threads]']
@@ -3025,7 +3026,7 @@ libboost-timer:
     jammy: [libboost-timer1.74.0]
     noble: [libboost-timer1.83.0]
 libboost-timer-dev:
-  arch: [boost-libs]
+  arch: [boost]
   debian: [libboost-timer-dev]
   fedora: [boost-devel]
   gentoo: [dev-libs/boost]
