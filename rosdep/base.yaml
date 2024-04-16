@@ -2614,6 +2614,7 @@ libbluetooth-dev:
   rhel: [bluez-libs-devel]
   ubuntu: [libbluetooth-dev]
 libboost-atomic:
+  arch: [boost-libs]
   debian:
     bullseye: [libboost-atomic1.74.0]
     buster: [libboost-atomic1.67.0]
@@ -2629,6 +2630,7 @@ libboost-atomic:
     jammy: [libboost-atomic1.74.0]
     noble: [libboost-atomic1.83.0]
 libboost-atomic-dev:
+  arch: [boost-libs]
   debian: [libboost-atomic-dev]
   fedora: [boost-devel]
   gentoo: [dev-libs/boost]
@@ -2638,6 +2640,7 @@ libboost-atomic-dev:
   rhel: [boost-devel]
   ubuntu: [libboost-atomic-dev]
 libboost-chrono:
+  arch: [boost-libs]
   debian:
     bullseye: [libboost-chrono1.74.0]
     buster: [libboost-chrono1.67.0]
@@ -2653,6 +2656,7 @@ libboost-chrono:
     jammy: [libboost-chrono1.74.0]
     noble: [libboost-chrono1.83.0]
 libboost-chrono-dev:
+  arch: [boost-libs]
   debian: [libboost-chrono-dev]
   fedora: [boost-devel]
   gentoo: [dev-libs/boost]
@@ -2662,6 +2666,7 @@ libboost-chrono-dev:
   rhel: [boost-devel]
   ubuntu: [libboost-chrono-dev]
 libboost-coroutine:
+  arch: [boost-libs]
   alpine: [boost-dev]
   debian:
     bullseye: [libboost-coroutine1.74.0]
@@ -2680,6 +2685,7 @@ libboost-coroutine:
     jammy: [libboost-coroutine1.74.0]
     noble: [libboost-coroutine1.83.0]
 libboost-coroutine-dev:
+  arch: [boost-libs]
   alpine: [boost-dev]
   debian: [libboost-coroutine-dev]
   fedora: [boost-devel]
@@ -2690,6 +2696,7 @@ libboost-coroutine-dev:
   rhel: [boost-devel]
   ubuntu: [libboost-coroutine-dev]
 libboost-date-time:
+  arch: [boost-libs]
   debian:
     bookworm: [libboost-date-time1.81.0]
     bullseye: [libboost-date-time1.74.0]
@@ -2706,6 +2713,7 @@ libboost-date-time:
     jammy: [libboost-date-time1.74.0]
     noble: [libboost-date-time1.83.0]
 libboost-date-time-dev:
+  arch: [boost-libs]
   debian: [libboost-date-time-dev]
   fedora: [boost-devel]
   gentoo: [dev-libs/boost]
@@ -2715,6 +2723,7 @@ libboost-date-time-dev:
   rhel: [boost-devel]
   ubuntu: [libboost-date-time-dev]
 libboost-dev:
+  arch: [boost-libs]
   debian: [libboost-dev]
   fedora: [boost-devel]
   gentoo: [dev-libs/boost]
@@ -2724,6 +2733,7 @@ libboost-dev:
   rhel: [boost-devel]
   ubuntu: [libboost-dev]
 libboost-filesystem:
+  arch: [boost-libs]
   debian:
     bookworm: [libboost-filesystem-dev]
     bullseye: [libboost-filesystem1.74.0]
@@ -2740,6 +2750,7 @@ libboost-filesystem:
     jammy: [libboost-filesystem1.74.0]
     noble: [libboost-filesystem1.83.0]
 libboost-filesystem-dev:
+  arch: [boost-libs]
   debian: [libboost-filesystem-dev]
   fedora: [boost-devel]
   gentoo: ['dev-libs/boost[python]']
@@ -2749,6 +2760,7 @@ libboost-filesystem-dev:
   rhel: [boost-devel]
   ubuntu: [libboost-filesystem-dev]
 libboost-iostreams:
+  arch: [boost-libs]
   debian:
     bullseye: [libboost-iostreams1.74.0]
     buster: [libboost-iostreams1.67.0]
@@ -2764,6 +2776,7 @@ libboost-iostreams:
     jammy: [libboost-iostreams1.74.0]
     noble: [libboost-iostreams1.83.0]
 libboost-iostreams-dev:
+  arch: [boost-libs]
   debian: [libboost-iostreams-dev]
   fedora: [boost-devel]
   gentoo: [dev-libs/boost]
@@ -2773,6 +2786,7 @@ libboost-iostreams-dev:
   rhel: [boost-devel]
   ubuntu: [libboost-iostreams-dev]
 libboost-math:
+  arch: [boost-libs]
   debian:
     bullseye: [libboost-math1.74.0]
     buster: [libboost-math1.67.0]
@@ -2787,6 +2801,7 @@ libboost-math:
     jammy: [libboost-math1.74.0]
     noble: [libboost-math1.83.0]
 libboost-math-dev:
+  arch: [boost-libs]
   debian: [libboost-math-dev]
   fedora: [boost-devel]
   gentoo: [dev-libs/boost]
@@ -2795,6 +2810,7 @@ libboost-math-dev:
   rhel: [boost-devel]
   ubuntu: [libboost-math-dev]
 libboost-numpy-dev:
+  arch: [boost-libs]
   debian: [libboost-numpy-dev]
   fedora: [boost-devel]
   gentoo: [dev-libs/boost]
@@ -2803,6 +2819,7 @@ libboost-numpy-dev:
   rhel: [boost-devel]
   ubuntu: [libboost-numpy-dev]
 libboost-program-options:
+  arch: [boost-libs]
   debian:
     bullseye: [libboost-program-options1.74.0]
     buster: [libboost-program-options1.67.0]
@@ -2818,6 +2835,7 @@ libboost-program-options:
     jammy: [libboost-program-options1.74.0]
     noble: [libboost-program-options1.83.0]
 libboost-program-options-dev:
+  arch: [boost-libs]
   debian: [libboost-program-options-dev]
   fedora: [boost-devel]
   gentoo: [dev-libs/boost]
@@ -2827,7 +2845,9 @@ libboost-program-options-dev:
   rhel: [boost-devel]
   ubuntu: [libboost-program-options-dev]
 libboost-python:
+  arch: [boost-libs]
   alpine: [boost-python2]
+  arch: []
   debian:
     bookworm: [libboost-python1.81.0]
     bullseye: [libboost-python1.74.0]
@@ -2846,6 +2866,7 @@ libboost-python:
     jammy: [libboost-python1.74.0]
     noble: [libboost-python1.83.0]
 libboost-python-dev:
+  arch: [boost-libs]
   alpine: [boost-python2]
   debian: [libboost-python-dev]
   fedora: [boost-devel]
@@ -2858,6 +2879,7 @@ libboost-python-dev:
     '7': [boost-devel, 'boost-python%{python3_pkgversion}-devel']
   ubuntu: [libboost-python-dev]
 libboost-random:
+  arch: [boost-libs]
   debian:
     bookworm: [libboost-random1.81.0]
     bullseye: [libboost-random1.74.0]
@@ -2874,6 +2896,7 @@ libboost-random:
     jammy: [libboost-random1.74.0]
     noble: [libboost-random1.83.0]
 libboost-random-dev:
+  arch: [boost-libs]
   debian: [libboost-random-dev]
   fedora: [boost-devel]
   gentoo: [dev-libs/boost]
@@ -2883,6 +2906,7 @@ libboost-random-dev:
   rhel: [boost-devel]
   ubuntu: [libboost-random-dev]
 libboost-regex:
+  arch: [boost-libs]
   debian:
     bullseye: [libboost-regex1.74.0]
     buster: [libboost-regex1.67.0]
@@ -2907,6 +2931,7 @@ libboost-regex-dev:
   rhel: [boost-devel]
   ubuntu: [libboost-regex-dev]
 libboost-serialization:
+  arch: [boost-libs]
   debian:
     bullseye: [libboost-serialization1.74.0]
     buster: [libboost-serialization1.67.0]
@@ -2922,6 +2947,7 @@ libboost-serialization:
     jammy: [libboost-serialization1.74.0]
     noble: [libboost-serialization1.83.0]
 libboost-serialization-dev:
+  arch: [boost-libs]
   debian: [libboost-serialization-dev]
   fedora: [boost-devel]
   gentoo: [dev-libs/boost]
@@ -2931,6 +2957,7 @@ libboost-serialization-dev:
   rhel: [boost-devel]
   ubuntu: [libboost-serialization-dev]
 libboost-system:
+  arch: [boost-libs]
   debian:
     bullseye: [libboost-system1.74.0]
     buster: [libboost-system1.67.0]
@@ -2946,6 +2973,7 @@ libboost-system:
     jammy: [libboost-system1.74.0]
     noble: [libboost-system1.83.0]
 libboost-system-dev:
+  arch: [boost-libs]
   debian: [libboost-system-dev]
   fedora: [boost-devel]
   gentoo: [dev-libs/boost]
@@ -2955,6 +2983,7 @@ libboost-system-dev:
   rhel: [boost-devel]
   ubuntu: [libboost-system-dev]
 libboost-thread:
+  arch: [boost-libs]
   debian:
     bookworm: [libboost-thread1.81.0]
     bullseye: [libboost-thread1.74.0]
@@ -2971,6 +3000,7 @@ libboost-thread:
     jammy: [libboost-thread1.74.0]
     noble: [libboost-thread1.83.0]
 libboost-thread-dev:
+  arch: [boost-libs]
   debian: [libboost-thread-dev]
   fedora: [boost-devel]
   gentoo: ['dev-libs/boost[threads]']
@@ -2980,6 +3010,7 @@ libboost-thread-dev:
   rhel: [boost-devel]
   ubuntu: [libboost-thread-dev]
 libboost-timer:
+  arch: [boost-libs]
   debian:
     bullseye: [libboost-timer1.74.0]
     buster: [libboost-timer1.67.0]
@@ -2994,6 +3025,7 @@ libboost-timer:
     jammy: [libboost-timer1.74.0]
     noble: [libboost-timer1.83.0]
 libboost-timer-dev:
+  arch: [boost-libs]
   debian: [libboost-timer-dev]
   fedora: [boost-devel]
   gentoo: [dev-libs/boost]
